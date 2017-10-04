@@ -1,7 +1,13 @@
-var a=0
+function setup() { 
+  createCanvas(400, 400);
+} 
 
-while(a<width){
-  line(175)
-  a=a+10
-  line(mouseX,mouseY,a,height)
+function draw() { 
+  background(220);
+	var x=0
+
+while(x<=width){
+  line(x,0,mouseX,mouseY)
+  x=x+15
+	}
 }
